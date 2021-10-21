@@ -539,7 +539,7 @@ zt获取评论
 | simple          | 是否使用简洁模式                             | 否    | false    |
 | options         | 数组, 参考Configs下的pagination              | 否    | 20       |
 
-#### 3.friendLink($classid, $field, $home)
+#### 3.friendLink($classid, $field, $order)
 友链
 
 参数:
@@ -547,7 +547,17 @@ zt获取评论
 | --------------- | -------------------------------------------- | :---: | :------: |
 | classid           | 分类id                                  | 是    | 0     |
 | field           |  数组                                   | 是    | []     |
-| home           |  is_home              | 是    | ''     |
+| order           |   排序字段                   | 是    | myorder     |
+
+### banner 
+
+1.lists
+参数:
+| 参数名          | 描述                                         | 必填  | 默认     |
+| --------------- | -------------------------------------------- | :---: | :------: |
+| site           | site                                  | 是    | 0     |
+| limit           |  数据量                                  | 是    | []     |
+| order           |   排序字段                   | 是    | addtime     |
 
 
 ### comment 评论模块

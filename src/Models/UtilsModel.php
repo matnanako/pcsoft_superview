@@ -32,11 +32,11 @@ class UtilsModel extends BaseModel
      *
      * @param int $classid
      * @param array $field
-     * @param string $home
+     * @param string $order [myorder|myorderasc]
      * @return mixed
      */
-    public function friendLink($classid = 0, $field = [], $home = '')
+    public function friendLink($classid = 0, $field = [], $order = '')
     {
-        return $this->dal['utils']->friendLink($classid, $field, $home);
+        return $this->dal['utils']->friendLink($classid, $field, $order);
     }
 }

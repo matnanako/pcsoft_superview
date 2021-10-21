@@ -20,6 +20,7 @@ return [
         'utils' => SuperView\Models\UtilsModel::class,
         'custom' => SuperView\Models\CustomModel::class,
         'comment' => SuperView\Models\CommentModel::class,
+        'banner' => SuperView\Models\BannerModel::class,
     ],
 
     'dals' => [
@@ -29,6 +30,7 @@ return [
         'utils' => SuperView\Dal\Api\Utils::class,
         'custom' => SuperView\Dal\Api\Custom::class,
         'comment' => SuperView\Dal\Api\Comment::class,
+        'banner' => SuperView\Dal\Api\Banner::class,
     ],
 
     'pagination' => [

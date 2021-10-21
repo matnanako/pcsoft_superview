@@ -26,15 +26,15 @@ class Utils extends Base
      *
      * @param $classid
      * @param $field
-     * @param $home
+     * @param $order
      * @return array|bool|mixed
      */
-    public function friendLink($classid, $field, $home)
+    public function friendLink($classid, $field, $order)
     {
         $params = [
             'classid' => $classid,
             'field' => $field,
-            'home' => $home,
+            'order' => $order,
         ];
         return $this->getData('friendLink', $params);
     }
